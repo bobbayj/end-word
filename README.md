@@ -1,7 +1,7 @@
 # end-word
 Can we automate report generation from copy-pasting .docx and .xls files with some Python? **Yes we can!**
 
-Using a bit of perserverance and digging, we can get everything we need using Microsoft Office's OpenXML structuring and create templated results using `docxtpl`.
+Using a bit of perserverance and digging, we can get everything we need using Microsoft Office's OpenXML structuring and create templated reports using FOSS Python libraries.
 
 **Progress:** Still prototyping. Play around with the jupyter notebook if you would like.
 
