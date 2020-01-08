@@ -14,10 +14,45 @@ Using a bit of perserverance and digging, we can get everything we need using Mi
 ## Goal
 1. Have a title page template that we can populate and then sequentially fill/append with data
 2. Copy over Excel table data with cell formatting
-    - No number formatting yet
 3. Copy over Word data. Preserve all formatting and images (+ image formats)
 4. Have boilerplate code so the project is DRY
 
-### Notes
+### Regarding footnotes...
 - Template must contain all the styles required (including footnote reference and text styles!)
-- Currently using Bayoo-docx in local dir. Should work fine installing as mentioned above. If not, I uncommented a function related to footnotes.
+- Currently using Bayoo-docx in local dir to support footnotes read/write.
+    - Should work fine installing as mentioned above. If not, I uncommented a function related to footnotes.
+
+---
+ # Issues List
+ 
+ - Re-factor code into a proper python package
+    - Draft a project structure
+    - Incremental testing can be done in Jupyter notebook
+- Chart_xlsx() - Excel chart creation | [Documentation](https://openpyxl.readthedocs.io/en/stable/charts/introduction.html)
+    - [Reader drawings module](https://openpyxl.readthedocs.io/en/stable/api/openpyxl.reader.drawings.html)
+- Check_styles() - Formatting parser during publishing...needs a custom solution?
+    - Ensure:
+        - There is not too much blank space on a page
+        - Tables and titles are not left orphaned on a page
+    - Consistent formatting throughout
+- Start packaging this project into proper modules
+    - Get the definition of modules and packages downpat
+    - Also, consider learning lambda functions?
+
+
+## Longer-term issues
+- Front-end | Parameter entry:
+    - Manual entry
+    - Auto-load in
+- Front-end <--link--> Back-end
+    - Where will files be stored? Privacy issues?
+- Flexibly defined style formats?
+- Creation of some standard templates
+    - Equity f/s
+    - Fixed income f/s
+    - Fund f/s
+- Scheduler (.bat?)
+- Delivery method
+    - Email, file saved
+    - Cloud-based vs Local?
+    - Security concerns?
