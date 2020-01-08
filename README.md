@@ -17,3 +17,6 @@ Using a bit of perserverance and digging, we can get everything we need using Mi
     - No number formatting yet
 3. Copy over Word data. Preserve all formatting and images (+ image formats)
 4. Have boilerplate code so the project is DRY
+
+### Notes
+- Template must contain all the 
