@@ -19,4 +19,5 @@ Using a bit of perserverance and digging, we can get everything we need using Mi
 4. Have boilerplate code so the project is DRY
 
 ### Notes
-- Template must contain all the 
+- Template must contain all the styles required (including footnote reference and text styles!)
+- Currently using Bayoo-docx in local dir. Should work fine installing as mentioned above. If not, I uncommented a function related to footnotes.
