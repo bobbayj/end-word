@@ -24,7 +24,7 @@ Using a bit of perserverance and digging, we can get everything we need using Mi
 
 ---
  # Issues List
- 
+ - In style_tbl > font, include font size change
  - Re-factor code into a proper python package
     - Draft a project structure
     - Incremental testing can be done in Jupyter notebook
@@ -56,3 +56,9 @@ Using a bit of perserverance and digging, we can get everything we need using Mi
     - Email, file saved
     - Cloud-based vs Local?
     - Security concerns?
+
+## Current Feedback
+- Needs to look flawless...the perfect output
+- Needs a very simple user interface
+    - Jupyter notebook; simple to create, but must be careful about who our target users are
+    - Traditional Windows DOS program; time-consuming to create, anyone can use
